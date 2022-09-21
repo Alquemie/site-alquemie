@@ -31,7 +31,7 @@
                 <div class="c-footer__copy <?php wp_indigo_get_footer_menu_class(); ?>">
 
                     <div class="c-footer__copy__author-info">
-                        Copyright &copy; <?php echo date('YYYY'); ?> by Carmack Holdings, LLC. All Rights Reserved.
+                        Copyright &copy; <?php echo date('Y'); ?> by Carmack Holdings, LLC. All Rights Reserved.
                     </div>
 
 
