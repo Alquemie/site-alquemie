@@ -19,6 +19,7 @@
   ],
   "require": {
     "alquemie/upstream-config": "*",
+    "wpackagist-plugin/kirki":"^4.0",
     "wpackagist-theme/neve":"^3.4",
     "wpackagist-theme/wp-indigo":"^2.1" 
   },
