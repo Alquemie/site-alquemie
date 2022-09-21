@@ -19,7 +19,8 @@
   ],
   "require": {
     "alquemie/upstream-config": "*",
-    "wpackagist-theme/neve":"^3.4" 
+    "wpackagist-theme/neve":"^3.4",
+    "wpackagist-theme/personal-cv-resume":"^1.0" 
   },
   "config": {
     "vendor-dir": "vendor",
