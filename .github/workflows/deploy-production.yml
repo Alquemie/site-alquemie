@@ -1,4 +1,4 @@
-name: Deploy Production Site
+name: Deploy Alquemie Production
 on:
   release:
     types: [published]
@@ -36,5 +36,5 @@ jobs:
 
       - name: Deploy Website
         run: |
-          rsync -avz --delete web vendor *.yml *.php ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/devoncc.org
+          rsync -avz --delete web vendor *.yml *.php ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/net.alquemie
           
